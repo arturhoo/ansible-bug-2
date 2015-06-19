@@ -1,0 +1,5 @@
+---
+- name: create two.txt file
+  file:
+    path: ~/two.txt
+    state: touch
